@@ -1,6 +1,6 @@
 ---
 date: 2017-01-07 00:00:00
-title: Chocolate Cupcakes
+title: Délire modulaire
 categories:
   - Cupcakes
   - Cakes
