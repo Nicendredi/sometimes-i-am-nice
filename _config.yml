@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Treat Template
-url: "https://spring-bat.cloudvent.net/"
+title: Sometimes I'm NicE
+url: "https://adored-cranberry.cloudvent.net/"
 baseurl:
 google_analytics_key:
 newsletter_action: "//your-mailchimp-action-url.com"
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Food blog template for Jekyll.
+description: Des fois je suis vrai, mais plus souvent vraiment bête.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Nicolas Endredi
+  email: nicolas.endredi@gmail.com
+  twitter: nendredi# twitter username without the @ symbol
 social:
-  name: Treat Template
+  name: Nicolas Endredi
   links:
-    - https://github.com/CloudCannon/treat-jekyll-template
+    - https://github.com/Nicendredi/sometimes-i-am-nice-website
 
 # -----
 # Build
