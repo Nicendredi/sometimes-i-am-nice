@@ -1,0 +1,21 @@
+---
+title: Blog
+image_view: true
+---
+<h1>Blog</h1>
+
+<h2>Attention ! Possibles spoilers en cliquant sur le bouton [TLDR];.</h2>
+
+
+{% if page.image_view %}
+	{% for category in site.categories %}
+		<h2>{{ category[0] }}</h2>
+		<div class="billets">
+			{% for post in category[1] %}
+				<div class="billet" style="background-image: url('{{ post.featured_image }}')">
+					<a href="{{ post.url }}"><span>{{ post.title }}</span></a>
+				</div>
+			{% endfor %}
+		</div>
+	{% endfor %}
+{% endif %}

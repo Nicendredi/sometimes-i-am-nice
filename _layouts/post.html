@@ -7,30 +7,30 @@ layout: default
 		<img src="{{ page.featured_image }}" alt="{{ page.title }}">
 	</div>
 
-	<div class="recipe-body">
+	<div class="billet-body">
 		{{ content }}
 	</div>
 
-	<div class="recipe-contents">
+	<div class="billet-contents">
 		<div class="directions" id="tldr">
 			<h2>TLDR;</h2>
-			{{ page.recipe.directions_markdown | markdownify }}
+			{{ page.tldr.text_markdown | markdownify }}
 		</div>
 	</div>
 
 	<div class="sharing">
 		{% assign share_url = page.url | absolute_url | cgi_escape %}
 		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}">{% include social-icon.html icon="Facebook" %}</a>
-		<a class="twitter" href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text=I'm%20going%20to%20this%20event!">{% include social-icon.html icon="Twitter" %}</a>
+		<a class="twitter" href="https://twitter.com/intent/tweet?url={{ share_url }}&amp;text=Il%20est%bizzare%20mais%20j'aime%20">{% include social-icon.html icon="Twitter" %}</a>
 		<a class="google-plus" href="https://plus.google.com/share?url={{ share_url }}">{% include social-icon.html icon="Google Plus" %}</a>
 		<a class="pinterest" href="//pinterest.com/pin/create/link/?url={{ share_url }}&amp;description={{ page.description }}">{% include social-icon.html icon="Pinterest" %}</a>
-		<a class="email" href="mailto:?subject=I've%20found%20a%20great%20recipe&amp;body=Check%20it%20out%20-%20{{ share_url }}">{% include social-icon.html icon="Email" %}</a>
+		<a class="email" href="mailto:?subject=Il%20est%bizzare%20mais%20j'aime%20&amp;body=Check%20it%20out%20-%20{{ share_url }}">{% include social-icon.html icon="Email" %}</a>
 	</div>
 
 	<div class="cta">
 		<h2>Plus de contenu</h2>
 		<p>J'écris aussi d'autres trucs dans le genre.</p>
-		<div class="button"><a href="/recipes">TLDR;</a></div>
+		<div class="button"><a href="/blog">Autres articles</a></div>
 	</div>
 	{% if site.disqus_shortname and page.comments %}
 		<div id="disqus_thread"></div>
