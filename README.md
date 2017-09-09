@@ -1,15 +1,6 @@
-# Treat
 
-Food/baking blog template for Jekyll. Browse through a [live demo](https://spring-bat.cloudvent.net/).
 
-![Treat template screenshot](images/_screenshot.png)
-
-Treat was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-Find more templates and themes at [Jekyll Tips](http://jekyll.tips/templates/).
-
-Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jekyll.tips/).
-
-## Features
+# Features
 
 * Contact form
 * Pre-built pages
@@ -21,39 +12,6 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 * RSS/Atom feed
 * SEO tags
 * Google Analytics
-
-## Setup
-
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics, Disqus and MailChimp keys to `_config.yml`.
-3. Add your details to `_data/sidebar.yml`
-4. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
-
-## Develop
-
-Treat was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should support newer versions as well.
-
-Install the dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ bundle install
-~~~
-
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Treat is already optimised for adding, updating and removing recipes, navigation, page content, and sidebar information in CloudCannon.
-
-### Posts/Recipes
-
-* Add, update or remove a post in the *Posts* collection.
-* The recipes page is organised by categories.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
 
 ### Contact Form
 
@@ -69,3 +27,9 @@ Treat is already optimised for adding, updating and removing recipes, navigation
 
 * Exposed as a data file to give clients better access.
 * Set in the *Data* / *Footer* section.
+
+### TODO
+
+* Make it multi-lingual.
+* Configure Disqus and Google Analytics.
+* Change the contact form handler to FormSpree.
