@@ -9,7 +9,7 @@ tldr:
   spoiler: false
   desc_markdown: >-
     R&eacute;flexion &agrave; chaud sur les id&eacute;es automatiques et les
-    pens&eacute;es suicidaires apr&egrave;s le [tweet de Talinda
+    pens&eacute;es suicidaires apr&egrave;s avoir lu le [tweet de Talinda
     Bennington](https://twitter.com/TalindaB/status/905707295442481152).
 
 
