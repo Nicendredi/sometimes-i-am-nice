@@ -1,5 +1,5 @@
 ---
-title:
+title: J'essaie toujours de faire rire
 categories:
 date:
 featured_image:
