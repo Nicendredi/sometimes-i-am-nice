@@ -8,7 +8,10 @@ date: 2017-12-19 20:00:00
 featured_image: /uploads/ghostship3.jpg
 tldr:
   spoiler: false
-  desc_markdown:
+  desc_markdown: >-
+    Des jeux de mots maritimes sur mon malaise. Je suis tr&egrave;s exigent avec
+    moi-m&ecirc;me, mais pas avec les autres. Ce qui me rend jaloux de leur
+    situation et parfois pire.
 ---
 
 
